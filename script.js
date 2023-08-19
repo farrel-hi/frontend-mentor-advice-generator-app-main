@@ -16,7 +16,7 @@ function getQuotes() {
 
 function addData(id,advice){
     document.getElementById("adviceID").innerHTML = `A  D V I C E # ${id}`
-    document.getElementById("advice").innerHTML = `${advice}`
+    document.getElementById("advice").innerHTML = `\"${advice}\"`
 }
 
 getQuotes();
