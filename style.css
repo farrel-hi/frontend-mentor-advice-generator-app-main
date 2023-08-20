@@ -81,19 +81,6 @@ button.generate-advice{
     background-color: hsl(150, 100%, 66%);
 }
 
-/* button.generate-advice:active {
-    animation: glow 1s;
-    animation-fill-mode: forwards;  
-}
-
-@-webkit-keyframes glow {
-    100%{
-        -webkit-box-shadow:0px 0px 50px 10px rgba(82,255,169,0.5);
-        -moz-box-shadow: 0px 0px 50px 10px rgba(82,255,169,0.5);
-        box-shadow: 0px 0px 50px 10px rgba(82,255,169,0.5);
-    }
-} */
-
 div.generate-advice > img{
     width: 40%;
     height: 40%;
@@ -151,7 +138,7 @@ div.generate-advice > img{
     }
 
     /* FOOTER */
-    footer{
-        left:50%;
+    .attribution{
+        left:42%;
     }
 }

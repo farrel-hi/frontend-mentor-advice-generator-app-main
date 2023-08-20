@@ -9,8 +9,8 @@ const API = { get }
 const adviceObj = {};
 
 function getQuotes() {
-    // data['slip']['id']
-    // data['slip']['advice']
+    // data['slip']['id'] -> Get ID data
+    // data['slip']['advice'] -> Get Advice Data
     API.get(API_URL).then(data => addData(data['slip']['id'],data['slip']['advice']));
 }
 
